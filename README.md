@@ -1,2 +1,5 @@
 # asmr.unikon.art-and-asmr.one-proxy
-asmr.unikon.art and asmr.one 浏览器拓展，把音频api等链接替换为国内可直接播放的链接，通过cloudflare workers反代链接实现 。需cloudflare workers绑定域名才能直连，比如dpdns.org
+一个.zip压缩包格式的浏览器拓展，用于网络不好时候的通过 cloudflare workers按 https://example.dpdns.org/https://api.asmr-200.com
+直连。适用于kikoeru系网站。
+
+注 :https://example.dpdns.org/ 是workers.dev绑定的域名，cloudflare workers反代是https://github.com/ymyuuu/Cloudflare-Workers-Proxy 项目部署的，其作用是 workers.dev/https://baidu.com等同于显示 https://baidu.com
